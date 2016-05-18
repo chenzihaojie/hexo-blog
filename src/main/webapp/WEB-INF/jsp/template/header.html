@@ -1,0 +1,65 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!-- 网站导航 -->
+<div class="headband"></div>
+<header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="header-inner">
+        <div class="site-meta ">
+            <div class="custom-logo-site-title">
+                <a href="/" class="brand" rel="start">
+                    <span class="logo-line-before"><i></i></span>
+                    <span class="site-title">Ethan's Blog</span>
+                    <span class="logo-line-after"><i></i></span>
+                </a>
+            </div>
+            <p class="site-subtitle">当你的才华还撑不起你的野心时，你就应该静下心来学习。</p>
+        </div>
+        <div class="site-nav-toggle">
+            <button>
+                <span class="btn-bar"></span>
+                <span class="btn-bar"></span>
+                <span class="btn-bar"></span>
+            </button>
+        </div>
+        <nav class="site-nav">
+            <ul id="menu" class="menu menu-left">
+                <li class="menu-item menu-item-home">
+                    <a href="/" rel="section">
+                        <i class="menu-item-icon fa fa-home fa-fw"></i> <br/>
+                        首页
+                    </a>
+                </li>
+
+                <li class="menu-item menu-item-archives">
+                    <a href="/archives" rel="section">
+                        <i class="menu-item-icon fa fa-archive fa-fw"></i> <br/>
+                        归档
+                    </a>
+                </li>
+
+                <li class="menu-item menu-item-categories">
+                    <a href="/categories" rel="section">
+                        <i class="menu-item-icon fa fa-th fa-fw"></i> <br/>
+                        分类
+                    </a>
+                </li>
+
+
+                <li class="menu-item menu-item-tags">
+                    <a href="/tags" rel="section">
+                        <i class="menu-item-icon fa fa-tags fa-fw"></i> <br/>
+                        标签
+                    </a>
+                </li>
+
+
+                <li class="menu-item menu-item-about">
+                    <a href="/about" rel="section">
+                        <i class="menu-item-icon fa fa-user fa-fw"></i> <br/>
+                        关于
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
